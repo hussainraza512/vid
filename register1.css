@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.imgdiv {
+    position: relative;
+    width: 555px;
+    margin: 50px auto; /* Adjust margin as needed */
+    
+}
+
+.imgdiv img {
+    width: 555px;
+   mix-blend-mode: color-burn;
+}
+
+.imgdiv video {
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+   
+    width: 505px;
+    transform: translateY(5px);
+    
+    margin-right: 22px;
+}
